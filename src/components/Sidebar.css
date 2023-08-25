@@ -1,0 +1,126 @@
+.sidebar {
+    display: flex;
+
+}
+.contact__link {
+    text-decoration: none;
+color: black;
+}
+.sidebar__left {
+    display: flex;
+    font-size: 1.5rem;
+    flex-direction: column;
+flex: 0.2;
+height: 100vh;
+    padding: 1rem;
+    box-shadow: 0.4rem 0.4rem rgb(230, 230, 230);
+    background-color: white;
+align-items: center;
+justify-content: space-evenly;
+
+}
+.sidebar__home {
+    padding: 1rem;
+}
+
+.sidebar__right {
+display: flex;
+flex-direction: column;
+flex: 0.8;
+align-items: center;
+justify-content: space-evenly;
+padding: 2rem;
+height: 100vh;
+overflow-y: auto;
+}
+.sidebar__contact {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+position: relative;
+top: 6rem;
+margin: 4rem;
+}
+.create__contact {
+    font-size: 4rem;
+    margin-top: 2rem;
+    overflow: auto;
+    cursor: pointer;
+    background-color: white;
+    padding: 2.5rem;
+    border: none;
+    box-shadow: 0.4rem 0.4rem rgb(230, 230, 230);
+}
+.no__info {
+    display: flex;
+ align-items: center;
+ justify-content: center;
+    background-color: white;
+    box-shadow: 0.4rem 0.4rem rgb(230, 230, 230); 
+    font-size: 2.5rem;
+    width: 50rem;
+    height: 10rem;
+    padding: 4rem;
+    line-height: 3.5rem;
+
+}
+.close__icon {
+    display: flex;
+    font-size: 10rem;
+   margin-right: 2rem;
+   cursor: pointer;
+
+}
+.test {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+    margin: 2rem;
+    max-height: calc(100vh - 2rem);
+  
+}
+.side__text {
+    font-size: 2.2rem;
+}
+
+@media (max-width: 53em) {
+    .side__text {
+        font-size: 1.5rem;
+    }
+    .no__info {
+        font-size: 1.5rem;
+        width: 35rem;
+        height: 15rem;
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 36em) {
+    .create__contact {
+font-size: 2rem;
+    }
+ 
+}
+
+@media (max-width: 33em) {
+    .side__text  {
+text-align: center;
+    }
+    .no__info {
+        font-size: 1rem;
+        width: 25rem;
+        height: 5rem;
+        padding: 1rem;
+        line-height: 2rem;
+    }
+    .close__icon {
+        font-size: 5rem;
+     
+    }
+ }
+
+ @media (max-width: 21em) { 
+    .create__contact {
+        font-size: 1.2rem;
+            }
+ }

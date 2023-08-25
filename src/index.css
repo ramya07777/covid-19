@@ -1,0 +1,29 @@
+
+* {
+    margin: 0;
+padding: 0;
+
+box-sizing: border-box;
+}
+body {
+    background-color: #f5f6fa;
+}
+
+html {
+    font-size: 62.5%;
+ 
+   }
+
+  @media (max-width: 44em) {
+    html {
+           /* 9px/16 0.56 56% */
+           font-size: 56%;
+    }
+  }
+
+  @media (max-width: 24em) {
+    html {
+           /* 8px/16 0.56 56% */
+           font-size: 50%;
+    }
+  }
